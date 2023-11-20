@@ -10,7 +10,7 @@ serverName = 'localhost'
 serverPort = 15000
 
 clientSocket = socket()
-# clientSocket = socket(AF_INET, SOCK_STREAM)
+clientSocket = socket(AF_INET, SOCK_STREAM)
 
 clientSocket.connect((serverName,serverPort))
 

@@ -9,7 +9,7 @@ from socket import *
 serverPort = 15000
 
 serverSocket = socket()
-# serverSocket = socket(AF_INET, SOCK_STREAM)
+serverSocket = socket(AF_INET, SOCK_STREAM)
 
 serverSocket.bind(('',serverPort))
 
